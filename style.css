@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding:0;
+    background: #e11ce1;
+    
+}
+.container {
+    margin-top: 0px;
+text-align: center;
+height: 100vh;
+display: flex;
+justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+
+}
+#hex {
+    display: block;
+    color:black;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.container button {
+    background:none;
+    outline: none;
+    color: black;
+    border: 3px solid black;
+    cursor:pointer;
+    font-size: 24px ;
+}
+
